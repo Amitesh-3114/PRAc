@@ -1,0 +1,48 @@
+/* Services.css or Card.css (assuming it's shared) */
+
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-between; /* Ensure cards are evenly spaced */
+  }
+  
+  /* Styles for Card component */
+  .card {
+    width: 45%; /* Adjust width as per your design */
+    display: flex;
+    flex-direction: row; /* Ensure items are aligned horizontally */
+    align-items: center; /* Center items vertically */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    flex: 0 0 auto; /* Prevent image from growing */
+    width: 200px; /* Adjust image width as needed */
+    height: 100%; /* Ensure image fills card height */
+    object-fit: cover; /* Maintain aspect ratio and cover entire container */
+  }
+  
+  .card-content {
+    padding: 20px;
+    flex: 1 1 auto; /* Allow content to grow */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  

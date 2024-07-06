@@ -1,0 +1,28 @@
+/* Home.css */
+.home-container {
+    padding: 20px;
+  }
+  
+  .text-and-image {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .text-content {
+    flex: 1 1 50%; /* Adjust text width as needed */
+    margin-right: 20px;
+  }
+  
+  .image-container {
+    flex: 1 1 40%; /* Adjust image container width as needed */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .home-image {
+    width: 600px; /* Ensure image takes up full width of container */
+    max-width: 700px; /* Ensure image doesn't exceed its original size */
+    height: auto;
+    padding-left:20px; /* Maintain aspect ratio */
+  }
+  
